@@ -90,7 +90,7 @@ input{
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   text-align: center;
   max-width: 800px;
   font-size: 2em;
@@ -108,7 +108,7 @@ input{
   }
   
   #header-text{
-    font-size: 2.5em;
+    font-size: 3em;
   }
   
   #dvr-input-container{
@@ -123,6 +123,6 @@ input{
   
   #result-container{
     max-width: 400px;
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
 }
