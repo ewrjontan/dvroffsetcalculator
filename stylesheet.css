@@ -124,5 +124,7 @@ input{
   #result-container{
     max-width: 400px;
     font-size: 1.75em;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
