@@ -2,6 +2,7 @@ body{
   background-color: white;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 #input-container{
@@ -58,9 +59,10 @@ input{
   background-color: none;
 }
 
-.radio-label{
-  position: relative;
-  left: -10px;
+.radio-label-container{
+  display: flex;
+  flex-direction: row;
+  background-color: none;
 }
 
 #calculate-button{
@@ -71,7 +73,9 @@ input{
   text-align: center;
   position: relative;
   top: 0px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
   cursor: pointer;
   color: white;
 }
@@ -88,4 +92,23 @@ input{
   text-align: center;
   max-width: 800px;
   font-size: 2em;
+}
+
+/*@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  body{
+    background-color: red;
+  }
+}*/
+
+@media only screen and (max-width: 600px) {
+  
+  #options-container{
+    flex-direction: column;
+    height: 100px;
+    width: 180px;
+  }
+  
+  #result-container{
+    max-width: 400px;
+  }
 }
