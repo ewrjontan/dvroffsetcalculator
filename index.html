@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DVR Offset Calculator</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="dvroffsetcalculator.js"></script>
+  </head>
+
+  <body>
+    <div id = "input-container">
+      <div id="header-text">
+        DVR Offset Calculator
+      </div>
+
+      <form>
+        <div class="input-flex" id="dvr-input-container">
+          <label class="input-label">DVR Time</label>
+          <input id="dvr-hr-input" type="text" maxlength="2" value="">
+          <p class="colon">:</p>
+          <input id="dvr-min-input" type="text" maxlength="2" value="">
+        </div>
+
+        <div class="input-flex" id="act-input-container">
+          <label class="input-label">Actual Time</label>
+          <input id="act-hr-input" type="text" maxlength="2" value="">
+          <p class="colon">:</p>
+          <input id="act-min-input" type="text" maxlength="2" value="">
+        </div>
+      </form>
+
+      <form>
+        <div class="input-flex" id="options-container">      
+          <input id="prev-day-input" type="radio" name="option" value="previousday">
+          <label class="radio-label" for="previous-day-input">DVR on previous day</label>
+
+          <input id="same-day-input" type="radio" name="option" value="same day" checked>
+          <label class="radio-label" for="same-day-input">DVR on same day</label>
+
+          <input id="next-day-input" type="radio" name="option" value="next day">
+          <label class="radio-label" for="next-day-input">DVR on next day</label>
+        </div>
+
+      </form>
+
+      <div id="calculate-button"><p>Calculate</p></div>
+
+      <div id="result-container"></div>
+    </div>
+
+  </body>
+</html>
