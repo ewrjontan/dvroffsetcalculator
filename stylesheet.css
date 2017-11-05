@@ -16,7 +16,7 @@ body{
 #header-text{
   text-align: center;
   font-size: 4em;
-  color: green;
+  color: white;
 }
 
 input{
@@ -98,12 +98,11 @@ input{
 }
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-device-width : 667px) and (orientation : portrait){
   #input-container{
-    background-color: red;
+    background-color: blue;
   }
 }
-
 
 @media only screen and (max-device-width: 667px) and (orientation : portrait) {
   #input-container{
