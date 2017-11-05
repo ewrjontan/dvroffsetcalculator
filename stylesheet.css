@@ -16,7 +16,7 @@ body{
 #header-text{
   text-align: center;
   font-size: 4em;
-  color: red;
+  color: blue;
 }
 
 input{
@@ -100,7 +100,7 @@ input{
 
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-@media only screen and (max-width: 800px){
+@media only screen and (min-width: 800px){
   #input-container{
     background-color: red;
   }
