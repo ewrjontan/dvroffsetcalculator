@@ -102,7 +102,7 @@ input{
   }
 }*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 667px) and (orientation : portrait) {
   #input-container{
     top: 25px;
   }
@@ -126,5 +126,33 @@ input{
     font-size: 1.75em;
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media only screen and (max-device-width: 667px) and (orientation : landscape) {
+  #input-container{
+    top: 0px;
+  }
+  
+  #header-text{
+    font-size: 3em;
+  }
+  
+  #dvr-input-container{
+  margin-top: 25px;
+  }
+  
+  #options-container{
+    flex-direction: column;
+    height: 100px;
+    width: 180px;
+  }
+  
+  #result-container{
+    max-width: 400px;
+    font-size: 1.75em;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 100px;
   }
 }
