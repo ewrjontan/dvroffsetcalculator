@@ -130,6 +130,7 @@ input{
     font-size: 1.75em;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 50px;
   }
 }
 
@@ -163,5 +164,6 @@ input{
     //padding-left: 15px;
     //padding-right: 15px;
     padding-bottom: 25px;
+    margin-top: 25px;
   }
 }
