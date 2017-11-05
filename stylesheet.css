@@ -122,7 +122,7 @@ input{
   }
   
   #calculate-button{
-    //margin-bottom: 0px;
+    margin-bottom: 0px;
   }  
   
   #result-container{
@@ -138,7 +138,7 @@ input{
 @media only screen and (max-device-width: 667px) and (orientation : landscape) {
   #input-container{
     top: 25px;
-    background-color: red;
+    background-color: none;
   }
   
   #header-text{
