@@ -121,6 +121,10 @@ input{
     width: 180px;
   }
   
+  #calculate-button{
+    margin-bottom: 0px;
+  }  
+  
   #result-container{
     max-width: 400px;
     font-size: 1.75em;
@@ -150,14 +154,14 @@ input{
   }
   
   #calculate-button{
-    margin-bottom: 25px;
+    margin-bottom: 0px;
   }
   
   #result-container{
-    max-width: 400px;
+    max-width: 500px;
     font-size: 1.75em;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 100px;
+    //padding-left: 15px;
+    //padding-right: 15px;
+    padding-bottom: 25px;
   }
 }
