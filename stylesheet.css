@@ -96,36 +96,32 @@ input{
   font-size: 2em;
 }
 
-/*@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  body{
-    background-color: red;
-  }
-}*/
+
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 @media only screen and (max-device-width: 667px) and (orientation : portrait) {
   #input-container{
     top: 25px;
-  }
+  };
   
   #header-text{
     font-size: 3em;
-  }
+  };
   
   #dvr-input-container{
   margin-top: 25px;
-  }
+  };
   
   #options-container{
     flex-direction: column;
     height: 100px;
     width: 180px;
-  }
+  };
   
   #calculate-button{
     margin-bottom: 0px;
-  }  
+  };  
   
   #result-container{
     font-size: 1.75em;
@@ -134,31 +130,32 @@ input{
     margin-top: 25px;
     background-color: none;
     max-width: 400px;
-  }
-}
+  };
+};
 
 @media only screen and (max-device-width: 667px) and (orientation : landscape) {
   #input-container{
     top: 25px;
-  }
+    background-color: blue;
+  };
   
   #header-text{
     font-size: 3em;
-  }
+  };
   
   #dvr-input-container{
   margin-top: 25px;
-  }
+  };
   
   #options-container{
     flex-direction: column;
     height: 100px;
     width: 180px;
-  }
+  };
   
   #calculate-button{
     margin-bottom: 0px;
-  }  
+  };
   
   #result-container{
     font-size: 1.75em;
@@ -168,6 +165,6 @@ input{
     background-color: none;
     max-width: 550px;
     padding-bottom: 10px;
-  }
-}
+  };
+};
 
