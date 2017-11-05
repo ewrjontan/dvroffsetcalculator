@@ -156,7 +156,7 @@ input{
   }
   
   #calculate-button{
-    margin-bottom: 0px;
+    //margin-bottom: 0px;
   }
   
   #result-container{
@@ -164,7 +164,7 @@ input{
     font-size: 1.75em;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 25px;
+    //padding-bottom: 25px;
     margin-top: 25px;
   }
 }
