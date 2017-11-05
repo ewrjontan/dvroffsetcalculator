@@ -131,7 +131,7 @@ input{
 
 @media only screen and (max-device-width: 667px) and (orientation : landscape) {
   #input-container{
-    top: 0px;
+    top: 25px;
     background-color: red;
   }
   
@@ -149,11 +149,15 @@ input{
     width: 180px;
   }
   
+  #calculate-button{
+    margin-bottom: 25px;
+  }
+  
   #result-container{
     max-width: 400px;
     font-size: 1.75em;
     padding-left: 25px;
     padding-right: 25px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
