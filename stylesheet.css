@@ -57,7 +57,7 @@ input{
 }
 
 #options-container{
-  width: 550px;
+  max-width: 550px;
   background-color: none;
 }
 
@@ -100,7 +100,7 @@ input{
 
 @media only screen and (max-device-width : 667px) and (orientation : portrait){
   #input-container{
-    background-color: blue;
+    background-color: none;
     top: 25px;
   }
   
@@ -137,7 +137,7 @@ input{
 @media only screen and (max-device-width : 667px) and (orientation : landscape){
   #input-container{
     top: 25px;
-    background-color: green;
+    background-color: none;
   }
   
   #header-text{
@@ -148,11 +148,11 @@ input{
     margin-top: 25px;
   }
   
-  #options-container{
+  /*#options-container{
     flex-direction: column;
     height: 100px;
     width: 180px;
-  }
+  }*/
   
   #calculate-button{
     margin-bottom: 0px;
