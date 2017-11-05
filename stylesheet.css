@@ -132,6 +132,7 @@ input{
 @media only screen and (max-device-width: 667px) and (orientation : landscape) {
   #input-container{
     top: 0px;
+    background-color: red;
   }
   
   #header-text{
