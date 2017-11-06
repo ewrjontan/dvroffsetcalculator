@@ -57,8 +57,9 @@ input{
 }
 
 #options-container{
-  max-width: 800px;
-  background-color: blue;
+  max-width: 550px;
+  width: 100%;
+  background-color: none;
 }
 
 .radio-label-container{
