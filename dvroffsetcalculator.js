@@ -174,9 +174,16 @@ $(document).ready(function(){
     $("#same-day-input").prop("checked", false);
   });
   
-
-	$("#calculate-button").click(function(){
-  	dvrHrInput = $("#dvr-hr-input").val();
+    $("#calculate-button").hover(
+  	function() {
+    	$(this).css({"background-color": "#ffbb33", "color": "white"});
+  		}, function() {
+    	$(this).css({"background-color": "white", "color": "#ffbb33"});
+  		}
+	);	
+	
+    $("#calculate-button").click(function(){
+        dvrHrInput = $("#dvr-hr-input").val();
     dvrMinInput = $("#dvr-min-input").val();
     actHrInput = $("#act-hr-input").val();
     actMinInput = $("#act-min-input").val();
