@@ -71,7 +71,7 @@ input{
 #calculate-button{
   width: 150px;
   height: 25px;
-  background-color: #ffbb33;
+  /*background-color: #ffbb33;*/
   border-radius: 5px;
   text-align: center;
   position: relative;
@@ -80,12 +80,15 @@ input{
   margin-right: auto;
   margin-bottom: 25px;
   cursor: pointer;
-  color: white;
+  /*color: white;*/
+  border: 2px solid #ffbb33;
+  color: #ffbb33;
+  background-color: white;
 }
 
 #calculate-button p{
   position: relative;
-  top: 4px;
+  top: -12px;
 }
 
 #result-container{
