@@ -157,7 +157,9 @@ function determineDay(){
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 $(document).ready(function(){
-	//click eventsfor radio buttons
+    $('body').bind('touchstart', function() {});
+	
+  //click eventsfor radio buttons
   $("#prev-day-input").click(function(){
   	$(this).prop("checked", true);
     $("#same-day-input").prop("checked", false);
