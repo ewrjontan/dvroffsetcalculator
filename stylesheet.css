@@ -84,6 +84,7 @@ input{
   border: 2px solid #ffbb33;
   color: #ffbb33;
   background-color: white;
+  margin-bottom: 25px;
 }
 
 #calculate-button p{
